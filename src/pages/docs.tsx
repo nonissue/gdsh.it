@@ -2,9 +2,9 @@ import { getLayout } from 'src/layouts/Layout';
 
 const Contact = () => {
   return (
-    <section className="text-base font-normal leading-relaxed text-gray-800 dark:text-gray-300">
+    <section className="text-base font-normal leading-relaxed text-slate-800 dark:text-slate-300">
       <div className="">
-        <h5 className="mb-8 text-4xl font-black tracking-tight text-gray-700 dark:text-gray-200 sm:mb-12 sm:text-5xl">
+        <h5 className="mb-8 text-4xl font-black tracking-tight text-slate-700 dark:text-slate-200 sm:mb-12 sm:text-5xl">
           Documentation
         </h5>
         <p>

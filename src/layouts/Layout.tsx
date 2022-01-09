@@ -6,9 +6,9 @@ type Props = {
 
 function Layout({ children }: Props): React.ReactElement {
   return (
-    <div className="flex flex-col font-sans text-gray-700 min-h-screen dark:text-gray-100">
+    <div className="flex flex-col min-h-screen font-sans text-slate-700 dark:text-slate-100">
       <Header />
-      <div className="padded-container max-w-3xl flex-grow flex-shrink relative z-10">
+      <div className="relative z-10 grow shrink max-w-3xl padded-container">
         <div className="min-w-full ">{children}</div>
       </div>
       <Footer />
