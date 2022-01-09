@@ -1,31 +1,11 @@
 import type { NextPage } from 'next/types';
-import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { ExternalLinkIcon, ArrowRightIcon } from '@heroicons/react/outline';
 import { getLayout } from 'src/layouts/Layout';
 
-const notTest = 'NOTTEST';
-
 const IndexPage: NextPage & {
   getLayout?: (component: JSX.Element) => JSX.Element;
 } = () => {
-  const [test, setTest] = useState('FML');
-
-  const CONSTANTTEST = 'HAHAHA';
-
-  useEffect(() => {
-    setTest((test) => test + '134' + notTest);
-    updateTest();
-    console.log(CONSTANTTEST);
-  }, []);
-
-  useEffect(() => {
-    console.log(test);
-  }, []);
-
-  const updateTest = () => {
-    setTest('NOTTEST');
-  };
   return (
     <>
       <section className="text-base leading-relaxed text-gray-600 dark:text-gray-300 divide-y divide-gray-400 divide-dashed sm:leading-relaxed">

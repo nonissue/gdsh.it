@@ -11,16 +11,26 @@ Next.js starter (cnsqnt v2) with Typescript & Tailwind.css (feat. `next-themes` 
 - Cleaned up eslint
 - Enabled tailwindcss eslint plugin
 - Fixed eslint issues
+  - `react-hooks` warning is working for exhaustive deps
+  - `tailwindcss` warning is working
+  - `typescript-eslint` is working
 
 ## Issues
+
+### Active
+
+- [ ] `postcss-import` needed or safe to remove?
+- [ ] Store site meta (title, etc) in json file.
+- [ ] USE LINEAR OR GITHUB ISSUES!
+- [ ] Fix darkmode/lightmode colours
+
+### Archive
 
 - [ ] ~~`bg-opacity-x` utils don't work with custom radix colors~~
   - [ ] ~~That said, using radix colors plugins means we automatically get theming w/ light / dark~~
   - [ ] UPDATE: NOT USING ANYMORE
 - [ ] ~~custom radix colors don't get inline color previews in VSCode~~
   - [ ] UPDATE: NOT USING ANYMORE
-- [ ] `postcss-import` needed or safe to remove?
-- [ ] Store site meta (title, etc) in json file.
 
 ## Tasks
 
