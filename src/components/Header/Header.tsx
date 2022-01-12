@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { QuestionMarkCircleIcon } from '@heroicons/react/outline';
 import { ThemeChanger } from 'src/components';
-import * as metadata from 'data/meta.json';
+// import * as metadata from 'data/meta.json';
 
 const Header = () => {
   return (
